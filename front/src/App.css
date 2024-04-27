@@ -1,3 +1,39 @@
+/* House colors definition :  */
+.Gryffindor {
+  background-color: #d00000; 
+}
+
+.Hufflepuff {
+  background-color: #f9a825; 
+}
+
+.Ravenclaw {
+  background-color: #005eb8; 
+}
+
+.Slytherin {
+  background-color: #1a472a; 
+}
+
+
+/*Text color define */
+.Gryffindor .Student-name {
+  color: yellow;
+}
+
+.Hufflepuff .Student-name {
+  color:black;
+}
+
+.Ravenclaw .Student-name {
+  color: white; 
+}
+
+.Slytherin .Student-name {
+  color: grey;
+}
+
+
 #root {
   max-width: 1280px;
   margin: 0 auto;
@@ -39,4 +75,22 @@
 
 .read-the-docs {
   color: #888;
+}
+
+/* New style students list */
+.Student-card {
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  padding: 20px;
+  margin-bottom: 20px;
+}
+
+.Student-name {
+  font-size: 1.2rem;
+  font-weight: bold;
+  color: white;
+}
+
+.Student-house {
+  margin-top: 5px;
 }
